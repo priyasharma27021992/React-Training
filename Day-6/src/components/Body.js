@@ -2,7 +2,10 @@ import { useState } from "react";
 import RestaurantCard from "./RestaurantCard";
 import { resList } from "../utils/mockData";
 const Body = () => {
+  // Array destructuring
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+  // [listOfRestaurants, setListOfRestaurants] = arr;
+  // listOfRestaurants = arr[0]
 
   //   State variable
   // as soon as listOfRestaurants changes, the render happens
